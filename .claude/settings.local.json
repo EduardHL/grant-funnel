@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run alembic upgrade:*)",
+      "Bash(uv run python:*)",
+      "Bash(npm:*)",
+      "Bash(npx tsc:*)",
+      "Bash(curl:*)",
+      "Bash(python3:*)",
+      "Bash(kill:*)",
+      "Bash(npx vite build:*)"
+    ]
+  }
+}
