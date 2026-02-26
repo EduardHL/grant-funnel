@@ -1,0 +1,16 @@
+Extract the list of grantees from this website of a grant-maker.
+https://www.mulagofoundation.org/portfolio
+Return a JSON file with the structure
+{
+  "name": "Mulago Foundation",
+  "website": "https://www.mulagofoundation.org",
+  "description": "We find great people with big ideas for the places that need them most. We teach founders what it takes to go big and we fund the journey to get there."
+  "grantees": [
+    {
+      "name": "Peepul",
+      "website": "https://www.peepulindia.org",
+      "description": "Peepul’s 'high-engagement teaching' model puts students first, creating classrooms where learning thrives. They train teachers in simple, intuitive practices that drive an ongoing interplay of student and teacher, and they work with principals and administrators to build the approach and practices—along with the training, mentoring, and feedback systems to maintain it—into the broader school system."
+    },
+    ....
+  ]
+}
